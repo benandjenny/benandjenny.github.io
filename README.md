@@ -1,3 +1,3 @@
-#### Marianne & Adam
+#### Marianne &amp; Adam
 
 Our wedding website.
