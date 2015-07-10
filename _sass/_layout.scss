@@ -42,6 +42,7 @@ input[type="submit"],
     letter-spacing: .125em;
 
     &:hover {
+        color: white;
         background-color: $text-color;
     }
 
@@ -160,12 +161,7 @@ header {
 
     h1 {
         color: white;
-
-        span {
-            /*border: 4px solid white;*/
-            /*padding: 1em 1.5em;*/
-        }
-
+        margin: 0;
     }
 
 }
@@ -347,6 +343,7 @@ dl {
 
     h4 {
         text-align: left;
+        margin: 0 0 1em 0;
     }
 
     .row {
@@ -383,6 +380,16 @@ dl {
 
 }
 
+.thanks {
+    text-align: center;
+
+    .button {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+}
+
 
 /* --------------------------------------------------------
     FOOTER
@@ -394,6 +401,7 @@ dl {
     color: #ccc;
 
     p {
+        margin: 0 4em;
         @extend .italics;
         @include vendor(column-count, 2);
     }

@@ -6,7 +6,7 @@ hero-img: hm.jpg
 ---
 
 <p>Please take a moment to complete the RSVP form below, making sure to indicate whether you can join us or not, and which meal option you'd prefer.</p>
-<p><em>If you need to RSVP for more than one person &mdash; you received an invitation with multiple names on it &mdash; please complete the form for one person at a time. Once you've submitted the form, you'll be redirected right back here to complete it for the next person.</em></p>
+<p><em>If you need to RSVP for more than one person &mdash; your invitation will have multiple names on it &mdash; please complete the form for one person at a time. Once you've submitted the form, you'll be redirected right back here to complete it for the next person.</em></p>
 
 <form class="rsvp-form" method="POST" action="http://formspree.io/adam.whitcroft+rsvp@gmail.com">
 
