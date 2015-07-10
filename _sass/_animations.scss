@@ -1,0 +1,57 @@
+/*  Masthead - fadeInUp
+/*==================================================*/
+
+@-webkit-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -webkit-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -moz-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -moz-transform: translateY(0);
+    }
+}
+
+@-ms-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -ms-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -ms-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        -o-transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        @include opacity(0);
+        transform: translateY(20px);
+    }
+    to {
+        @include opacity(100);
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,16 @@
+<article class="accommodation">
+
+	<h4 class="name">{{ include.name }}</h4>
+
+	{% if include.address %}
+	<p class="address">{{ include.address }}</p>
+	{% endif %}
+
+	<ul>
+		<li><a href="{{ include.website }}">Website</a></li>
+		<li class="bull">&bull;</li>
+		<li><a href="{{ include.tripadvisor }}">TripAdvisor</a></li>
+	</ul>
+
+	<p>{{ include.description }}</p>
+</article>

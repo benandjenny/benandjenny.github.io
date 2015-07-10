@@ -1,0 +1,18 @@
+{% if page.class != "home" %}
+<header class="site-header">
+    <div class="content">
+        <a class="site-title" href="/details/">Marianne <span>&amp;</span> Adam</a>
+
+        <nav class="main-menu">
+            <ul>
+            {% assign url = page.url | remove: 'index.html' %}
+            {% for menu in site.data.nav %}
+            <li class="li-{{ menu.title | downcase | replace:' ','-' }} {% if url == menu.href %}active{% endif %}">
+                <a href="{{ menu.href }}">{{ menu.title }}</a>
+            </li>
+            {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>
+{% endif %}

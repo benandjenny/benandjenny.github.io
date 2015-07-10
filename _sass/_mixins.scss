@@ -1,0 +1,70 @@
+/* --------------------------------------------------------
+    CONTENTS - MIXINS
+    ---
+    ANIMATION
+    GRADIENTS
+    OPACITY
+    VENDOR PREFIXING
+-------------------------------------------------------- */
+
+/* --------------------------------------------------------
+    ANIMATION
+    ---
+    Usage example:
+
+    @include animation(fadeInUp, 500ms, 200ms, ease, forward);
+-------------------------------------------------------- */
+
+@mixin animation($name, $duration, $delay, $timing, $direction){
+    @include vendor(animation-name, $name);
+    @include vendor(animation-duration, $duration);
+    @include vendor(animation-delay, $delay);
+    @include vendor(animation-iteration-count, $timing);
+    @include vendor(animation-fill-mode, $direction);
+}
+
+/* --------------------------------------------------------
+    GRADIENTS
+    ---
+    Usage example:
+
+    @include gradient(white, black);
+-------------------------------------------------------- */
+
+@mixin gradient($from, $to) {
+    background-color: $from;
+    background-image: -moz-linear-gradient($from, $to);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to));
+    background-image: -webkit-linear-gradient($from, $to);
+    background-image: -o-linear-gradient($from, $to);
+    background: linear-gradient(to bottom,  $from 0%, $to 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$from', endColorstr='#$to',GradientType=0 );
+}
+
+/* --------------------------------------------------------
+    OPACITY
+    ---
+    Usage example:
+
+    @include opacity(0.8);
+-------------------------------------------------------- */
+
+@mixin opacity($opacity) {
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+/* --------------------------------------------------------
+    VENDOR PREFIXING
+    ---
+    Usage example:
+
+    @include vendor(background-size, cover);
+-------------------------------------------------------- */
+
+@mixin vendor($property, $value...) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    #{$property}: $value;
+}
