@@ -87,7 +87,7 @@ input[type="submit"],
         margin: 0;
         letter-spacing: .125em;
 
-        @media screen and (max-width:600px) {
+        @media screen and (max-width: $breakpoint) {
             font-size: 1em;
         }
 
@@ -340,6 +340,10 @@ dl {
 
 .rsvp-form {
     padding: 0 2em;
+
+    @media screen and (max-width: $breakpoint) {
+        padding: 0em;
+    }
 
     h4 {
         text-align: left;
