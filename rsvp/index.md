@@ -13,18 +13,18 @@ hero-img: hm.jpg
 	<!-- First Name -->
 	<h4>First name</h4>
 	<div class="row">
-		<input type="text" name="First Name" placeholder="First name" required tabindex="1">
+		<input type="text" name="First Name" placeholder="Your first name" required tabindex="1">
 	</div>
 	<!-- Last Name -->
 	<h4>Surname</h4>
 	<div class="row">
-		<input type="text" name="Surname" placeholder="Surname" required tabindex="2">
+		<input type="text" name="Surname" placeholder="Your surname" required tabindex="2">
 	</div>
 	<!-- Attending? -->
 	<h4>Will you be joining us?</h4>
 	<div class="row">
 		<div class="faux-input">Please select one</div>
-		<select id="attending-dropdown" name="Attending" tabindex="4">
+		<select id="attending-dropdown" name="Attending" tabindex="3" required>
 			<option>Please select one</option>
 			<option>Yes</option>
 			<option>Unfortunately Not</option>
@@ -34,12 +34,17 @@ hero-img: hm.jpg
 	<h4>If so, what would you like to eat?</h4>
 	<div class="row">
 		<div class="faux-input">Please select one</div>
-		<select id="meal-dropdown" name="Meal option">
+		<select id="meal-dropdown" name="Meal option" tabindex="4">
 			<option>Please select one</option>
 			<option>Meat Option</option>
 			<option>Fish Option</option>
 			<option>Vegetarian Option</option>
 		</select>
+	</div>
+	<!-- Allergies -->
+	<h4>Any allergies?</h4>
+	<div class="row">
+		<input type="text" name="Allergies" placeholder="Any allergies?" required tabindex="5">
 	</div>
 
 	<input type="submit" value="RSVP">
