@@ -13,6 +13,7 @@ $(function(){
 	};
 
 	// Desaturate hero on scroll
+	/*
 	$(window).scroll(function(){
 		var scrollDist = $(window).scrollTop();
 		hero.css({
@@ -20,7 +21,7 @@ $(function(){
 			"-moz-filter" : "grayscale(" + (scrollDist / 2) + "%)",
 			"filter" : "grayscale(" + (scrollDist / 2) + "%)"
 		});
-	});
+	});*/
 
 	// Select element stuff
 	attendingDrop.on("change", function(){

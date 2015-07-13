@@ -402,11 +402,10 @@ dl {
     padding: 0 0 2em 0;
     font-style: italic;
     color: #ccc;
+    text-align: center;
 
     p {
-        margin: 0 4em;
         @extend .italics;
-        @include vendor(column-count, 2);
     }
 
 }
