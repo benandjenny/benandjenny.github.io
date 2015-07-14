@@ -15,4 +15,6 @@ Since Holden Manz is a working wine farm, we'd recommend flat shoes for the ladi
 
 #### Getting there
 
-More info coming soon!
+If you'd prefer to get a cab from within Franschhoek to - and from - the wedding, [Uber](https://www.uber.com/cities/cape-town) operate in the area.
+
+If you're not planning on staying over in Franschhoek on the night of the wedding, [Shuttle Up](http://www.shuttleup.co.za/index.php/site/pricing) do transfers between Cape Town and Franschhoek for ±R550 each way. Alternatively, you can use Uber as well.

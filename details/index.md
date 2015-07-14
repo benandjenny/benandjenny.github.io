@@ -11,7 +11,7 @@ hero-img: hm.jpg
 	<dt>Where</dt>
 	<dd>Holden Manz Wine Estate, Green Valley Rd, Franschhoek, 7690, South Africa.</dd>
 	<dt>Dress</dt>
-	<dd>Semi Formal. No jeans, trainers / flip-flops or t-shirts please. If you'd like some inspiration for what to wear, we have a <a href="">Pinterest board</a> for you.</dd>
+	<dd>Semi Formal. No jeans, trainers / flip-flops or t-shirts please.</dd>
 	<dt>RSVP</dt>
 	<dd>Please ensure you RSVP no later than August 30, 2015.</dd>
 	<dt>Menu</dt>
