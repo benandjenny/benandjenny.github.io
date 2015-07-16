@@ -42,7 +42,7 @@ hero-img: hm.jpg
 		</select>
 	</div>
 	<!-- Allergies -->
-	<h4>Any allergies?</h4>
+	<h4>Any food allergies?</h4>
 	<div class="row">
 		<input type="text" name="Allergies" placeholder="Any allergies?" required tabindex="5">
 	</div>
