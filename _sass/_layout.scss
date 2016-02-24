@@ -30,6 +30,7 @@ input[type="submit"],
     background-color: $accent-color;
     color: white;
     letter-spacing: .125em;
+    @extend .sans-serifs;
 
     &:hover {
         color: white;
@@ -99,14 +100,14 @@ nav {
         line-height: 2em;
         text-align: center;
 
-        @media screen and (max-width:$breakpoint) {
-        }
 
         li {
             display: inline-block;
             margin: 0 .25em;
 
             @media screen and (max-width:$breakpoint) {
+                display: block;
+                margin: 0;
             }
 
             a {
