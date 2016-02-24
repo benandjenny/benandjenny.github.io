@@ -114,14 +114,14 @@ nav {
                 padding: 0 1em;
                 display: block;
                 font-size: .875em;
-                color: $text-color-light;
+                color: $text-color-light !important;
                 @extend .sans-serifs;
             }
 
             &.active {
 
                 a {
-                    color: $accent-color;
+                    color: $accent-color !important;
                 }
 
             }

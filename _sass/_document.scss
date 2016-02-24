@@ -14,11 +14,7 @@ html {
 	color: $text-color;
 	font-family: $font-family-serif;
 	line-height: 1.5em;
-
-    @media screen and (max-width:$breakpoint) {
-        font-size: 100%;
-    }
-
+	font-weight: 400;
 }
 
 /* --------------------------------------------------------
