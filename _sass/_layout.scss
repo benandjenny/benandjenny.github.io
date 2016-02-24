@@ -192,6 +192,10 @@ nav {
         .faux-input {
             padding: 0 1em;
             cursor: pointer;
+            background-image: url('/images/dropdown.png');
+            background-size: 16px;
+            background-repeat: no-repeat;
+            background-position: 98%;
         }
 
         input {
