@@ -2,12 +2,7 @@
 layout: default
 ---
 
-{% if page.hero-img %}
-<div class="hero" style="background-image: url('/images/{{ page.hero-img }}')">
-	<h1 class="page-title"><span>{{ page.title }}</span></h1>
-</div>
-{% endif %}
-
 <div class="content">
+	<h1 class="page-title">{{ page.title }}</h1>	
 	{{ content }}
 </div>

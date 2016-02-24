@@ -1,7 +1,5 @@
 # Site settings
-title: Marianne &amp; Adam
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+title: Ben &amp; Jenny
 sass:
   sass_dir: _sass
   style: compressed

@@ -1,8 +1,7 @@
-{% if page.class != "home" %}
 <header class="site-header">
     <div class="content">
-        <a class="site-title" href="/details/">M <span>&amp;</span> A</a>
-
+        <a class="site-title" href="/">Ben <span>&amp;</span> Jenny</a>
+        <hr>
         <nav class="main-menu">
             <ul>
             {% assign url = page.url | remove: 'index.html' %}
@@ -13,6 +12,6 @@
             {% endfor %}
             </ul>
         </nav>
+        <hr>
     </div>
 </header>
-{% endif %}
