@@ -3,6 +3,6 @@ layout: page
 title: RSVP
 ---
 
-Some text here to remind people of closing date for RSVPs etc.
+We would be grateful if you could please RSVP individually using the form below to make life easier for our caterers. We hope you can make it!
 
 {% include rsvp-form.html %}
