@@ -9,18 +9,6 @@
     ISLAND
 -------------------------------------------------------- */
 
-.sans-serifs {
-    font-family: $font-family-sans;
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: .125em;
-}
-
-.italics {
-    font-style: italic;
-    color: #9197a3;
-}
-
 input[type="submit"],
 .button {
     margin-top: 1em;
@@ -30,7 +18,7 @@ input[type="submit"],
     background-color: $accent-color;
     color: white;
     letter-spacing: .125em;
-    @extend .sans-serifs;
+    @extend .headings;
 
     &:hover {
         color: white;
@@ -75,7 +63,6 @@ header {
         display: block;
         text-align: center;
         text-transform: uppercase;
-        @extend .sans-serifs;
         color: $text-color;
 
         span {
@@ -115,7 +102,7 @@ nav {
                 display: block;
                 font-size: .875em;
                 color: $text-color-light !important;
-                @extend .sans-serifs;
+                @extend .headings;
             }
 
             &.active {
@@ -142,7 +129,7 @@ dl {
     text-align: center;
 
     dt {
-        @extend .sans-serifs;
+        @extend .headings;
         margin-bottom: 1em;
     }
 
