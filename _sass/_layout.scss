@@ -130,7 +130,9 @@ dl {
 
     dt {
         @extend .headings;
-        margin-bottom: 1em;
+        font-weight: 700;
+        /*margin-bottom: 1em;*/
+        margin: 2em;
     }
 
     dd {
@@ -148,6 +150,7 @@ dl {
 
     h4 {
         margin: 0;
+        font-weight: 700;
     }
 
     .address {
